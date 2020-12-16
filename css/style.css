@@ -1,0 +1,172 @@
+@import "lib/normalize.css";
+@import "lib/reset";
+@import "layout/_grid.css";
+@import "components/_FullPost.css";
+
+/** 
+
+The Project was completely developed by me (Raghad Saeed) and not copied from another project.
+I used some usefull resources which some of them  were recommened in My Udacity ND Program Such as :
+
+https://cssgrid-generator.netlify.app/
+
+https://developer.mozilla.org
+
+https://www.w3schools.com/
+
+
+
+**/
+
+body{
+    display: flexbox;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #141415;
+    color:whitesmoke;
+}
+
+
+
+.nav-bar img {
+    height: 80px;
+    display: inline;
+}
+.nav-bar {
+    background-color:#141415;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-weight: 600;
+}
+
+.nav-bar img {
+    height: 80px;
+    display: inline;
+}
+
+.nav-bar * {
+    display: inline;
+}
+
+.nav-bar li {
+    margin: 20px;
+}
+
+.nav-bar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.nav-bar li a:hover {
+    background-color: #79a5ba;
+  }
+ 
+.Title_Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    height: 446px;
+    font-size: 45px;
+   color:#FFFFF8;
+   margin-bottom: 0px;
+   text-indent: 90px;
+   background-image: url(../Assets/AI-Gif.gif);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position-x: right;
+}
+.underline-Title {
+
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 12%;
+    height: 15px;
+    background-color:#79a5ba;
+}
+
+
+a:hover {
+    color: #79a5ba;
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+ i{
+     display: flex;
+     align-self: center;
+     color:  #79a5ba;
+     padding:5px;
+     } 
+
+     
+
+.About_Blog{
+    display: flex;
+    grid-area:main;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%  15%;
+    
+}
+
+.About_Blog h2{
+    text-transform: uppercase;
+   color: #79a5ba;
+   font-size: 34px;
+ 
+}
+
+.About_Blog p{
+
+    font-size: 18px;
+}
+
+
+.form_container {
+    border-radius: 5px;
+    background-color: #444;
+    padding: 20px;
+    margin: 5%  15%;
+
+  }
+  .form_container h2 {
+      text-align: center;
+
+  }
+  .form_container input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .form_container input[type=submit] {
+    background-color: #79a5ba;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form_container input[type=submit]:hover {
+    background-color: whitesmoke;
+    color: #444;
+  }
+  
+
+
+  
