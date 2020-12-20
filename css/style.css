@@ -25,6 +25,35 @@ body{
     color:whitesmoke;
 }
 
+/* Typography Design */
+
+
+
+h1,h2,h3{
+  
+  color: whitesmoke;
+  font:  sans-serif;
+}
+
+p{
+  font:  sans-serif;
+  font-size: medium;
+  line-height: normal;
+  font-weight: 500;
+  color: #FFFFF8;
+}
+
+a{
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600; 
+}
+
+q{
+  font-style: italic;
+  font-weight: lighter;
+  display: inline;
+}
 
 
 .nav-bar img {
@@ -119,7 +148,7 @@ a:hover {
 }
 
 .About_Blog h2{
-    text-transform: uppercase;
+    
    color: #79a5ba;
    font-size: 34px;
  
@@ -166,6 +195,12 @@ a:hover {
     background-color: whitesmoke;
     color: #444;
   }
+
+  .form_container #subject{
+    height:200px;
+
+  }
+/* Typography Design */
   
 
 

@@ -444,6 +444,10 @@
                 padding-left: 20px;
 
             }
+
+            .post_card_autho p{ 
+                font-weight: 600;
+            }
             .post_card_footer{
                 grid-area: footer;
                 display: flex;
